@@ -104,6 +104,7 @@ controls.update()
 /************* CREATE SCENE **************/
 let s = new Scene('assets/360-plage.jpg',camera)
 let s2 = new Scene('assets/360-3.jpg',camera)
+let s3 = new Scene('assets/360-4.jpg', camera)
 
 //interconnection scene
 s.addPoint({
@@ -112,12 +113,23 @@ s.addPoint({
   scene: s2
 })
 s2.addPoint({
-  position: new THREE.Vector3(1, 0.5 ,0 ),
-  name: 'Sortie',
+  position: new THREE.Vector3(1, 0.5 ,0),
+  name: 'Back to 2040',
   scene: s
+})
+s2.addPoint({
+  position: new THREE.Vector3(34.5567890, -9.2566635097418235 ,-11.65677),
+  name: 'Medieval Age',
+  scene: s3
+})
+s3.addPoint({
+  position: new THREE.Vector3(1, 0.5 ,0),
+  name: 'Back to Narnia',
+  scene: s2
 })
 
 s.createScene(scene) //first point on Scene
+
 
 /*********** END CREATE SCENE *************/
 
