@@ -11,4 +11,4 @@ Certains navigateur ont du mal à lancé ThreeJs, j'ai rencontré quelques probl
 Pour le lancer , c'est au choix de l'utilisateur, utilisant un Ubuntu , je le lance avec le serveur interne de PHP , en effectuant la commande  ``` php -s localhost:3000 ``` 
 
 # Note
-  Vous pouvez le live server de vos editeurs de textes
+  Vous pouvez utiliser le live server de vos editeurs de textes
