@@ -12,3 +12,5 @@ Pour le lancer , c'est au choix de l'utilisateur, utilisant un Ubuntu , je le la
 
 # Note
   Vous pouvez utiliser le live server de vos editeurs de textes
+# References
+  https://threejs.org/
