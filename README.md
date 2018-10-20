@@ -1,4 +1,4 @@
-# 360 vue with ThreeJS
+# 360 view with ThreeJS
 Système de visualisation panoramique 
 
 ## Framework 
